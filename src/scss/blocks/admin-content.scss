@@ -1,0 +1,142 @@
+.admin-content{
+    background:#fff;
+    padding:30px;
+    margin-bottom:48px;
+}
+.admin-panel-caption{
+   
+    h1{
+        font-size: 30px;
+        font-family: 'Lato Semibold';
+        line-height: 36px;
+    }
+    margin-bottom: 24px;
+}
+.admin-content-caption{
+    margin-bottom: 26px;
+    font-family: 'Lato Semibold';
+}
+.admin-nav{
+
+    .btn-admin{
+        padding:10px 16px;
+        margin-right:32px;
+        border:1px solid  $btn-color;
+        background:transparent;
+        color:$btn-color;
+    }
+
+    .btn-admin-active{
+        background:$btn-color;
+        color:#fff;
+    }
+}
+
+.admin-content-nav{
+    justify-content: space-between;
+    border-bottom: 1px solid #EFF1F6;
+    max-width:658px;
+    margin-bottom: 37px;
+
+    a{
+        display: inline-block;
+        margin:0 40px 0 0;
+        color: $btn-color;
+    }
+    a:nth-child(4){
+        margin:0;
+    }
+    .admin-content-nav-active{
+        font-family: 'Lato Semibold';
+        color:#FF00AA;
+        border-bottom: 2px solid #FF00AA;
+    }
+}
+
+.admin-content-wrapper{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.admin-content-item{
+    max-width:573px;
+    width:32.5%;
+    background:#F8F8F8;
+   
+    header{
+        width:100%;
+        background: linear-gradient(88.34deg, #DD50DA 0%, #FF94FD 100%);
+        text-align: center;
+        padding:16px 0;
+        border-radius: 8px 8px 0 0;
+        color:#fff;
+        font-family: 'Lato Semibold';
+        h3{
+            margin:0;
+        }
+    }
+    &:nth-child(2) > header{
+        background: linear-gradient(88.34deg, #EB5757 0%, #FF8D8D 100%);
+
+    }
+    &:nth-child(3) > header{
+        background: linear-gradient(88.34deg, #6065A7 0%, #8B91DD 100%);
+    }
+    .admin-content-body{
+        overflow: hidden;
+        p{
+            margin-bottom: 14px;
+            padding:24px 105px 0 24px;
+        }
+        .highlight-text{
+            font-family: 'Lato Semibold';
+            color:#EA5DBB;
+        }
+        .table-name{
+            font-family: 'Lato Semibold';
+        }
+
+        table{
+            max-width:444px;
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+            margin: 4.1899%;
+
+            thead{
+                border-bottom:1px solid  #EBEBEB, 100%;
+              
+            }
+            th{
+                text-transform: uppercase;
+                color: #666666;
+                padding:16px 0;
+                font-size:12px;
+                font-weight: 400;
+
+                td{
+                    padding:16px 0;
+                }
+            }
+
+            tbody{
+                tr{
+                    border-bottom:1px solid #EBEBEB, 100%;
+            
+                }
+                td{
+                    padding:14px 0;
+                    &:nth-child(1){
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    &:nth-child(2) .admin-content-body  table{
+       
+            max-width:525px;
+        
+    }
+}

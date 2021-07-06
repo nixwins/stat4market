@@ -1,0 +1,50 @@
+@import 'vars';
+@import 'fonts';
+@import './blocks/header';
+@import './blocks/admin-content';
+@import './blocks/additional-services';
+@import './responsive';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size:14px;
+    font-family: 'Lato Regular';
+    margin:0;
+
+}
+a{
+    text-decoration: none;
+    font-size:14px;
+}
+.container{
+    width:100%;
+    max-width:1920px;
+    margin:0 auto;
+    background: #F4F5F8;
+    overflow: hidden;
+  
+;
+}
+.content{
+    width:100%;
+    padding:0 38px;
+    margin:0 auto;
+    
+}
+
+.btn{
+    border:none;
+    border-radius: 4px;
+    background: $btn-color;
+    color:#fff;
+    text-decoration:none;
+    cursor: pointer;
+  
+}
+.rubel{
+    display:inline;
+    font-family: 'ALS Rubl';
+}

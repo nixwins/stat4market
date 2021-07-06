@@ -1,0 +1,138 @@
+header.header{
+    width:100%;
+    padding:8px 0;
+    background:#fff;
+    .content{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+}
+.logo, .burger-menu{
+    display: none;
+}
+.header-right-block{
+    width:75%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.admin-nav-current{
+    display:none;
+}
+.header-select{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:250px;
+    height: 44px;
+    margin:18px 0;
+    border: 1px solid #D8DCE9;
+    border-radius: 8px;
+    cursor: pointer;
+
+    a{
+        display:inline-block;
+        margin-left:7.5px;
+        text-decoration: none;
+        font-size:14px;
+        line-height: 20px;
+        color:$text-color;
+
+        &:hover{
+            text-decoration: underline;
+          
+        }
+    }
+}
+
+.billing{
+    display:flex;
+    border: 1px solid #D8DCE9;
+    align-items: center;
+    padding:8px 16px;
+    height:44px;
+    border-radius: 8px;
+    margin-right: 40px;
+
+    p{
+       
+        margin:0;
+        span{
+            margin-right: 8px;
+        }
+    }
+
+    .currency-icon{
+        display:inline-flex;
+        width:16px;
+        height:16px;
+        border:2px solid #EA5DBB;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .btn-billing{
+        padding:4px 12px;
+        font-size: 13px;
+        // height:20px;
+    }
+    .term{
+        color:#666666;
+        font-size:12px;
+        line-height: 18px;
+    }
+}
+
+nav {
+    display:flex;
+
+    .notifications, .profile-icon{
+        display:inline-flex;
+        align-items: center;
+        justify-content:center;
+        width:44px;
+        height:44px;
+        border-radius: 50%;
+        background:$text-bg-color;
+        cursor: pointer;
+    }
+    .notifications{
+        position: relative;
+        margin-right: 40px;
+
+        .notifications-count{
+            content:'';
+            width:16px;
+            height:16px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background:#EA5DBB;
+            border-radius: 50%;
+            position:absolute;
+            right:3px;
+            top:-2px;
+            font-size:8px;
+           color:#fff;
+        }
+    }
+    .profile-icon{
+        margin-right: 16px;
+    }
+
+    .username{
+        cursor: pointer;
+    }
+    .profile-arrow{
+        cursor: pointer;
+        svg{
+            width: 8px;
+            height: 4px;
+        }
+        
+    }
+}

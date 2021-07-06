@@ -1,0 +1,109 @@
+.additional-services{
+    margin-bottom: 86px;
+
+    .addtl-service-caption{
+        margin-bottom: 24px;
+    }
+
+   
+    article{
+        width:100%;
+        display:flex;
+        background:#fff;
+        margin-bottom: 24px;
+        border-radius: 8px;
+    }
+    .addtl-service-img-wrapper{
+        max-width:305px;
+        width:100%;
+        // margin-right:30px;
+
+        img{
+            object-fit: cover;
+            height:100%;
+            width:100%;
+        }
+    }
+    .addtl-service-content{
+        padding:30px;
+    }
+
+    .addtl-service-content-title{
+        font-size:20px;
+        font-family: 'Lato Semibold';
+        margin-bottom:16px;
+    }
+    .addtl-service-desciption{
+        max-width:1238px;
+        
+        >p:nth-child(2){
+            margin-bottom:44px;
+        }
+        footer{
+            // background-image: url('../../img/addtl-footer-bg.svg');
+            display:flex;
+            align-items: center;
+            background: #F8F8F8;
+            padding:18px 20px ;
+            svg{
+                margin-right:15px;
+            }
+
+            p{
+                margin:0;
+            }
+        }
+    }
+
+    .addtl-service-footer{
+        display:flex;
+        flex-direction: column;
+        padding:30px;
+        align-items: center;
+        justify-content: center;
+        max-width:270px;
+    
+    }
+    .addtl-service-price{
+        font-family: 'Lato Semibold';
+        color:#000;
+        margin-bottom: 24px;
+        span{
+            display:block;
+            margin-bottom: 8px;
+            font-size:24px;
+        }
+   
+        span:nth-child(1){
+            color:$btn-color;
+            text-decoration: line-through;
+        }
+        span:nth-child(2){
+            .rubel{ color:$text-color;}
+        }
+        span:nth-child(3){
+           font-size:14px;
+           font-family: 'Lato Regular';
+            
+        }
+        .rubel{ 
+            display:inline;
+        }
+    }
+
+    .addtl-service-btn-wrapper{
+        text-align: center;
+        button{
+            padding:10px 0;
+            width:210px;
+            margin-bottom:20px;
+        }
+
+        button:nth-child(2){
+            background:transparent;
+            color:$btn-color;
+            border:1px solid #D8DCE9;
+        }
+    }
+}
+
