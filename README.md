@@ -1,2 +1,5 @@
-# webpack5-skeleton
- Webpack5 skeleton. HTML/CSS/SCSS/PostCSS/JS/Static/Fonts
+# stat4market test task
+##Запускать желательно ливсервере
+```
+    npm run dev
+```
